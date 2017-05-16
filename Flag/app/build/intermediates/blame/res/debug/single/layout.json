@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/tommy522588/Desktop/3_down/android/Flag/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/tommy522588/Desktop/3_down/android/Flag/app/build/intermediates/res/merged/debug/layout/activity_settings.xml",
+        "source": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/tommy522588/Desktop/3_down/android/Flag/app/build/intermediates/res/merged/debug/layout/fragment_quiz.xml",
+        "source": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/layout/fragment_quiz.xml"
+    }
+]

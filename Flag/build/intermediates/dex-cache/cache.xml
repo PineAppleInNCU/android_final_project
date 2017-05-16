@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/tommy522588/Desktop/3_down/android/Flag/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a249c98f8b005f989b949091e9513e493875d315">
+        <dex dex="/Users/tommy522588/Desktop/3_down/android/Flag/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1e2cf04f58e11a53570ac4c76c4c4b3037184724/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tommy522588/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/tommy522588/Desktop/3_down/android/Flag/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_f4e9f05ff550b623c85b54b2a90e7c9b618a2f5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tommy522588/Desktop/3_down/android/Flag/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b8723a699bd8a1e27ef149b37eae883ebb0cf25d">
+        <dex dex="/Users/tommy522588/Desktop/3_down/android/Flag/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_685dc7820e27a1fd659682bb225f909bb6e59873/classes.dex" />
+    </item>
+
+</items>
