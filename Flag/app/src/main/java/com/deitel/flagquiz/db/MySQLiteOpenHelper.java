@@ -19,23 +19,20 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
     private static final int DB_VERSION = 2;
     private static final String TABLE_NAME = "Cats";
     private static final String COL_id = "id";
-    private static final String COL_name = "cat_category";
-    private static final String COL_phone = "cat_introduction";
-    private static final String COL_image = "image_path";
+    private static final String COL_category = "cat_category";
+    private static final String COL_introduction = "cat_introduction";
+    private static final String COL_image_path = "image_path";
 
     private static final String TABLE_CREATE =
             "CREATE TABLE " + TABLE_NAME + " ( " +
                     COL_id + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                    COL_name + " TEXT NOT NULL, " +
-                    COL_web + " TEXT, " +
-                    COL_phone + " TEXT, " +
-                    COL_address + " TEXT, " +
-                    COL_image + " BLOB ); ";
+                    COL_category + " TEXT NOT NULL, " +
+                    COL_introduction + " TEXT, " +
+                    COL_image_path + " TEXT    ); ";
 
     public MySQLiteOpenHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
     }
-
 
 
 
@@ -51,9 +48,6 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
         db.execSQL(TABLE_CREATE);
 
 
-
-
-
     }
 
     @Override
@@ -62,71 +56,67 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public List<Spot> getAllSpots() {
+    public List<Cat> getAllCats() {
         SQLiteDatabase db = getReadableDatabase();
         String[] columns = {
-                COL_id, COL_name, COL_web, COL_phone, COL_address, COL_image
+                COL_id, COL_category, COL_introduction, COL_image_path
         };
         Cursor cursor = db.query(TABLE_NAME, columns, null, null, null, null,
                 null);
-        List<Spot> spotList = new ArrayList<>();
+        List<Cat> catList = new ArrayList<Cat>();
         while (cursor.moveToNext()) {
             int id = cursor.getInt(0);
-            String name = cursor.getString(1);
-            String web = cursor.getString(2);
-            String phone = cursor.getString(3);
-            String address = cursor.getString(4);
-            byte[] image = cursor.getBlob(5);
-            Spot spot = new Spot(id, name, web, phone, address, image);
-            spotList.add(spot);
+            String cat_category = cursor.getString(1);
+            String cat_introduction = cursor.getString(2);
+            String image_path = cursor.getString(3);
+
+            Cat cat = new Cat(id, cat_category, cat_introduction, image_path);
+            catList.add(cat);
         }
         cursor.close();
-        return spotList;
+        return catList;
     }
 
-    public Spot findById(int id) {
+    public Cat findById(int id) {
         SQLiteDatabase db = getWritableDatabase();
         String[] columns = {
-                COL_name, COL_web, COL_phone, COL_address, COL_image
+                COL_category, COL_introduction, COL_image_path
         };
         String selection = COL_id + " = ?;";
         String[] selectionArgs = {String.valueOf(id)};
         Cursor cursor = db.query(TABLE_NAME, columns, selection, selectionArgs,
                 null, null, null);
-        Spot spot = null;
+        Cat cat = null;
         if (cursor.moveToNext()) {
-            String name = cursor.getString(0);
-            String web = cursor.getString(1);
-            String phone = cursor.getString(2);
-            String address = cursor.getString(3);
-            byte[] image = cursor.getBlob(4);
-            spot = new Spot(id, name, web, phone, address, image);
+            String cat_category = cursor.getString(0);
+            String cat_introduction = cursor.getString(1);
+            String image_path = cursor.getString(2);
+
+            cat = new Cat(id,cat_category, cat_introduction, image_path);
         }
         cursor.close();
-        return spot;
+        return cat;
     }
 
-    public long insert(Spot spot) {
+    public long insert(Cat cat) {
         SQLiteDatabase db = getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put(COL_name, spot.getName());
-        values.put(COL_web, spot.getWeb());
-        values.put(COL_phone, spot.getPhone());
-        values.put(COL_address, spot.getAddress());
-        values.put(COL_image, spot.getImage());
+        values.put(COL_category, cat.getCat_category());
+        values.put(COL_introduction, cat.getCat_introduction());
+        values.put(COL_image_path, cat.getImage_path());
+
         return db.insert(TABLE_NAME, null, values);
     }
 
-    public int update(Spot spot) {
+    public int update(Cat cat) {
         SQLiteDatabase db = getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put(COL_name, spot.getName());
-        values.put(COL_web, spot.getWeb());
-        values.put(COL_phone, spot.getPhone());
-        values.put(COL_address, spot.getAddress());
-        values.put(COL_image, spot.getImage());
+        values.put(COL_category, cat.getCat_category());
+        values.put(COL_introduction, cat.getCat_introduction());
+        values.put(COL_image_path, cat.getImage_path());
+
         String whereClause = COL_id + " = ?;";
-        String[] whereArgs = {Integer.toString(spot.getId())};
+        String[] whereArgs = {Integer.toString(cat.getId())};
         return db.update(TABLE_NAME, values, whereClause, whereArgs);
     }
 

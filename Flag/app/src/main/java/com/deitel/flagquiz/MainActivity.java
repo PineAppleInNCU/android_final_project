@@ -111,8 +111,21 @@ public class MainActivity extends Activity
    @Override
    public boolean onOptionsItemSelected(MenuItem item)
    {
-      Intent preferencesIntent = new Intent(this, SettingsActivity.class);
-      startActivity(preferencesIntent);
+
+      int item_id = item.getItemId();
+
+      switch (item_id){
+         case R.id.action_settings:
+            Intent preferencesIntent = new Intent(this, SettingsActivity.class);
+            startActivity(preferencesIntent);
+
+            break;
+         case R.id.display_information:
+
+
+            break;
+         default: return false;
+      }
 
       //這裡為什麼要return一個值？
       return super.onOptionsItemSelected(item);

@@ -207,7 +207,7 @@ public class QuizFragment extends Fragment
          // get an InputStream to the asset representing the next flag
          InputStream stream = 
             assets.open(region + "/" + nextImage + ".png");
-         Log.i("path",region + "/" + nextImage + ".png");
+         //Log.i("path",region + "/" + nextImage + ".png");
          //North_America/North_America-Anguilla.png
          
          // load the asset as a Drawable and display on the flagImageView
