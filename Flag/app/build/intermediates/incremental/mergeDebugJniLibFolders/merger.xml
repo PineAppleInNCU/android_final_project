@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/tommy522588/Desktop/3_down/android/Flag/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/debug/jniLibs"/></dataSet></merger>

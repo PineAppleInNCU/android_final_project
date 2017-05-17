@@ -64,23 +64,24 @@ public final class R {
         public static final int main=0x7f0b0000;
     }
     public static final class string {
-        public static final int action_settings=0x7f0a0000;
-        public static final int app_name=0x7f0a0001;
-        public static final int default_region=0x7f0a0002;
-        public static final int default_region_message=0x7f0a0003;
-        public static final int guess_country=0x7f0a0004;
-        public static final int image_description=0x7f0a0005;
-        public static final int incorrect_answer=0x7f0a0006;
-        public static final int number_of_choices=0x7f0a0007;
-        public static final int number_of_choices_description=0x7f0a0008;
-        public static final int ok=0x7f0a0009;
-        public static final int question=0x7f0a000a;
-        public static final int reset_quiz=0x7f0a000b;
-        public static final int restarting_quiz=0x7f0a000c;
-        public static final int results=0x7f0a000d;
-        public static final int settings_activity=0x7f0a000e;
-        public static final int world_regions=0x7f0a000f;
-        public static final int world_regions_description=0x7f0a0010;
+        public static final int action_hi=0x7f0a0000;
+        public static final int action_settings=0x7f0a0001;
+        public static final int app_name=0x7f0a0002;
+        public static final int default_region=0x7f0a0003;
+        public static final int default_region_message=0x7f0a0004;
+        public static final int guess_country=0x7f0a0005;
+        public static final int image_description=0x7f0a0006;
+        public static final int incorrect_answer=0x7f0a0007;
+        public static final int number_of_choices=0x7f0a0008;
+        public static final int number_of_choices_description=0x7f0a0009;
+        public static final int ok=0x7f0a000a;
+        public static final int question=0x7f0a000b;
+        public static final int reset_quiz=0x7f0a000c;
+        public static final int restarting_quiz=0x7f0a000d;
+        public static final int results=0x7f0a000e;
+        public static final int settings_activity=0x7f0a000f;
+        public static final int world_regions=0x7f0a0010;
+        public static final int world_regions_description=0x7f0a0011;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

@@ -27,6 +27,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="answer_size">40sp</dimen>
     <dimen name="spacing">8dp</dimen>
+    <string name="action_hi">hi</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">Flag Quiz</string>
     <string name="default_region">North_America</string>

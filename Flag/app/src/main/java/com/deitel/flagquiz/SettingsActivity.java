@@ -1,5 +1,7 @@
 // SettingsActivity.java
 // Activity to display SettingsFragment on a phone
+//很酷的是，fragment是哪一張，已經定義在xml裡
+//xml裡直接定義要用哪一個class
 package com.deitel.flagquiz;
 
 import android.app.Activity;
@@ -9,7 +11,7 @@ public class SettingsActivity extends Activity
 {
    // use FragmentManager to display SettingsFragment
    @Override
-   protected void onCreate(Bundle savedInstanceState) 
+   protected void onCreate(Bundle savedInstanceState)
    {
        super.onCreate(savedInstanceState);
        setContentView(R.layout.activity_settings);

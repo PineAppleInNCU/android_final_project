@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/tommy522588/Desktop/3_down/android/Flag/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 178
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/arrays.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/arrays.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 418
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/arrays.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/arrays.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -54,7 +54,7 @@
                     "endOffset": 671
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/arrays.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/arrays.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -74,7 +74,7 @@
                     "endOffset": 720
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/colors.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -93,7 +93,7 @@
                     "endOffset": 771
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/colors.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -112,7 +112,7 @@
                     "endOffset": 829
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -131,7 +131,7 @@
                     "endOffset": 885
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -150,7 +150,7 @@
                     "endOffset": 928
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -169,7 +169,7 @@
                     "endOffset": 966
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -184,11 +184,30 @@
                     "startLine": 29,
                     "startColumn": 4,
                     "startOffset": 971,
-                    "endColumn": 52,
-                    "endOffset": 1019
+                    "endColumn": 40,
+                    "endOffset": 1007
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 40,
+                        "endOffset": 192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1012,
+                    "endColumn": 52,
+                    "endOffset": 1060
+                },
+                "from": {
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -200,14 +219,14 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 1024,
+                    "startOffset": 1065,
                     "endColumn": 46,
-                    "endOffset": 1066
+                    "endOffset": 1107
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -219,39 +238,20 @@
             },
             {
                 "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 1071,
-                    "endColumn": 56,
-                    "endOffset": 1123
-                },
-                "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1131,
-                        "endColumn": 56,
-                        "endOffset": 1183
-                    }
-                }
-            },
-            {
-                "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 1128,
-                    "endColumn": 124,
-                    "endOffset": 1248
+                    "startOffset": 1112,
+                    "endColumn": 56,
+                    "endOffset": 1164
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 694,
-                        "endColumn": 124,
-                        "endOffset": 814
+                        "startOffset": 1172,
+                        "endColumn": 56,
+                        "endOffset": 1224
                     }
                 }
             },
@@ -259,18 +259,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 1253,
-                    "endColumn": 59,
-                    "endOffset": 1308
+                    "startOffset": 1169,
+                    "endColumn": 124,
+                    "endOffset": 1289
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 510,
-                        "endColumn": 59,
-                        "endOffset": 565
+                        "startOffset": 735,
+                        "endColumn": 124,
+                        "endOffset": 855
                     }
                 }
             },
@@ -278,18 +278,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 1313,
-                    "endColumn": 83,
-                    "endOffset": 1392
+                    "startOffset": 1294,
+                    "endColumn": 59,
+                    "endOffset": 1349
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1047,
-                        "endColumn": 83,
-                        "endOffset": 1126
+                        "startOffset": 551,
+                        "endColumn": 59,
+                        "endOffset": 606
                     }
                 }
             },
@@ -297,18 +297,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 1397,
-                    "endColumn": 55,
-                    "endOffset": 1448
+                    "startOffset": 1354,
+                    "endColumn": 83,
+                    "endOffset": 1433
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 638,
-                        "endColumn": 55,
-                        "endOffset": 689
+                        "startOffset": 1088,
+                        "endColumn": 83,
+                        "endOffset": 1167
                     }
                 }
             },
@@ -316,18 +316,18 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 1453,
-                    "endColumn": 63,
-                    "endOffset": 1512
+                    "startOffset": 1438,
+                    "endColumn": 55,
+                    "endOffset": 1489
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 221,
-                        "endColumn": 63,
-                        "endOffset": 280
+                        "startOffset": 679,
+                        "endColumn": 55,
+                        "endOffset": 730
                     }
                 }
             },
@@ -335,18 +335,18 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 1517,
-                    "endColumn": 89,
-                    "endOffset": 1602
+                    "startOffset": 1494,
+                    "endColumn": 63,
+                    "endOffset": 1553
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 285,
-                        "endColumn": 89,
-                        "endOffset": 370
+                        "startOffset": 262,
+                        "endColumn": 63,
+                        "endOffset": 321
                     }
                 }
             },
@@ -354,18 +354,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 1607,
-                    "endColumn": 33,
-                    "endOffset": 1636
+                    "startOffset": 1558,
+                    "endColumn": 89,
+                    "endOffset": 1643
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 904,
-                        "endColumn": 33,
-                        "endOffset": 933
+                        "startOffset": 326,
+                        "endColumn": 89,
+                        "endOffset": 411
                     }
                 }
             },
@@ -373,18 +373,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 1641,
-                    "endColumn": 58,
-                    "endOffset": 1695
+                    "startOffset": 1648,
+                    "endColumn": 33,
+                    "endOffset": 1677
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 938,
-                        "endColumn": 58,
-                        "endOffset": 992
+                        "startOffset": 945,
+                        "endColumn": 33,
+                        "endOffset": 974
                     }
                 }
             },
@@ -392,18 +392,18 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 1700,
-                    "endColumn": 49,
-                    "endOffset": 1745
+                    "startOffset": 1682,
+                    "endColumn": 58,
+                    "endOffset": 1736
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 997,
-                        "endColumn": 49,
-                        "endOffset": 1042
+                        "startOffset": 979,
+                        "endColumn": 58,
+                        "endOffset": 1033
                     }
                 }
             },
@@ -411,18 +411,18 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 1750,
-                    "endColumn": 84,
-                    "endOffset": 1830
+                    "startOffset": 1741,
+                    "endColumn": 49,
+                    "endOffset": 1786
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 819,
-                        "endColumn": 84,
-                        "endOffset": 899
+                        "startOffset": 1038,
+                        "endColumn": 49,
+                        "endOffset": 1083
                     }
                 }
             },
@@ -430,18 +430,18 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 1835,
-                    "endColumn": 67,
-                    "endOffset": 1898
+                    "startOffset": 1791,
+                    "endColumn": 84,
+                    "endOffset": 1871
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 570,
-                        "endColumn": 67,
-                        "endOffset": 633
+                        "startOffset": 860,
+                        "endColumn": 84,
+                        "endOffset": 940
                     }
                 }
             },
@@ -449,18 +449,18 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 1903,
-                    "endColumn": 64,
-                    "endOffset": 1963
+                    "startOffset": 1876,
+                    "endColumn": 67,
+                    "endOffset": 1939
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 156,
-                        "endColumn": 64,
-                        "endOffset": 216
+                        "startOffset": 611,
+                        "endColumn": 67,
+                        "endOffset": 674
                     }
                 }
             },
@@ -468,18 +468,18 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 1968,
-                    "endColumn": 49,
-                    "endOffset": 2013
+                    "startOffset": 1944,
+                    "endColumn": 64,
+                    "endOffset": 2004
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 375,
-                        "endColumn": 49,
-                        "endOffset": 420
+                        "startOffset": 197,
+                        "endColumn": 64,
+                        "endOffset": 257
                     }
                 }
             },
@@ -487,18 +487,18 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 2018,
-                    "endColumn": 84,
-                    "endOffset": 2098
+                    "startOffset": 2009,
+                    "endColumn": 49,
+                    "endOffset": 2054
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/strings.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 425,
-                        "endColumn": 84,
-                        "endOffset": 505
+                        "startOffset": 416,
+                        "endColumn": 49,
+                        "endOffset": 461
                     }
                 }
             },
@@ -506,13 +506,32 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 2103,
-                    "endLine": 52,
-                    "endColumn": 12,
-                    "endOffset": 2389
+                    "startOffset": 2059,
+                    "endColumn": 84,
+                    "endOffset": 2139
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/styles.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 466,
+                        "endColumn": 84,
+                        "endOffset": 546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2144,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 2430
+                },
+                "from": {
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -525,15 +544,15 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 2394,
-                    "endLine": 55,
+                    "startOffset": 2435,
+                    "endLine": 56,
                     "endColumn": 12,
-                    "endOffset": 2549
+                    "endOffset": 2590
                 },
                 "from": {
-                    "file": "/Users/tommy522588/Desktop/3_down/android/Flag/app/src/main/res/values/styles.xml",
+                    "file": "/Users/tommy522588/Desktop/3_down/android/project/Flag/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,

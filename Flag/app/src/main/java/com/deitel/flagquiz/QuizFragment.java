@@ -140,7 +140,9 @@ public class QuizFragment extends Fragment
          for (String region : regionsSet) 
          {
             // get a list of all flag image files in this region
+            //region應該是資料夾名稱
             String[] paths = assets.list(region);
+
 
             for (String path : paths) 
                fileNameList.add(path.replace(".png", ""));
@@ -158,7 +160,11 @@ public class QuizFragment extends Fragment
       int flagCounter = 1; 
       int numberOfFlags = fileNameList.size(); 
 
+      //fileNameList >> 所有國家的名字
+      //quizCountriesList >> 解答的名字
+
       // add FLAGS_IN_QUIZ random file names to the quizCountriesList
+      //共有十題，每題的解答都要不同
       while (flagCounter <= FLAGS_IN_QUIZ) 
       {
          int randomIndex = random.nextInt(numberOfFlags); 
@@ -201,6 +207,8 @@ public class QuizFragment extends Fragment
          // get an InputStream to the asset representing the next flag
          InputStream stream = 
             assets.open(region + "/" + nextImage + ".png");
+         Log.i("path",region + "/" + nextImage + ".png");
+         //North_America/North_America-Anguilla.png
          
          // load the asset as a Drawable and display on the flagImageView
          Drawable flag = Drawable.createFromStream(stream, nextImage);
@@ -289,7 +297,10 @@ public class QuizFragment extends Fragment
                         builder.setMessage(
                            getResources().getString(R.string.results, 
                            totalGuesses, (1000 / (double) totalGuesses)));
-                        
+                           //因為我們必定會對10題
+                           //然後我們又需要多兩位
+                           //所以10題*100=1000
+
                         // "Reset Quiz" Button                              
                         builder.setPositiveButton(R.string.reset_quiz,
                            new DialogInterface.OnClickListener()                
@@ -301,7 +312,8 @@ public class QuizFragment extends Fragment
                               } 
                            } // end anonymous inner class
                         ); // end call to setPositiveButton
-                        
+
+                        //為什麼要return builder
                         return builder.create(); // return the AlertDialog
                      } // end method onCreateDialog   
                   }; // end DialogFragment anonymous inner class
@@ -311,6 +323,8 @@ public class QuizFragment extends Fragment
             } 
             else // answer is correct but quiz is not over 
             {
+
+               //這裡用一個handler開一個新的thread
                // load the next flag after a 1-second delay
                handler.postDelayed(
                   new Runnable()
@@ -326,6 +340,7 @@ public class QuizFragment extends Fragment
          else // guess was incorrect  
          {
             flagImageView.startAnimation(shakeAnimation); // play shake
+
 
             // display "Incorrect!" in red 
             answerTextView.setText(R.string.incorrect_answer);

@@ -3,6 +3,7 @@
 
     <string name="app_name">Flag Quiz</string>
     <string name="action_settings">Settings</string>
+    <string name="action_hi">hi</string>
     <string name="settings_activity">Flag Quiz Settings</string>
     <string name="number_of_choices">Number of Choices</string>
     <string name="number_of_choices_description">Display 3, 6 or 9 guess buttons</string>

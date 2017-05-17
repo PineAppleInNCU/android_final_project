@@ -38,10 +38,12 @@ public class MainActivity extends Activity
       // set default values in the app's SharedPreferences
       PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
 
+
       // register listener for SharedPreferences changes
       PreferenceManager.getDefaultSharedPreferences(this).
          registerOnSharedPreferenceChangeListener(
             preferenceChangeListener);
+
 
       // determine screen size 
       int screenSize = getResources().getConfiguration().screenLayout &
@@ -70,16 +72,20 @@ public class MainActivity extends Activity
          // initialize QuizFragment and start the quiz
          QuizFragment quizFragment = (QuizFragment)
             getFragmentManager().findFragmentById(R.id.quizFragment);
+
          quizFragment.updateGuessRows(
             PreferenceManager.getDefaultSharedPreferences(this));
          quizFragment.updateRegions(
             PreferenceManager.getDefaultSharedPreferences(this));
+
          quizFragment.resetQuiz();
+
          preferencesChanged = false; 
       }
    } // end method onStart
 
    // show menu if app is running on a phone or a portrait-oriented tablet
+   //右上角那三個點，就是從這裡來的
    @Override
    public boolean onCreateOptionsMenu(Menu menu)
    {
@@ -92,7 +98,8 @@ public class MainActivity extends Activity
       // display the app's menu only in portrait orientation
       if (screenSize.x < screenSize.y) // x is width, y is height
       {
-         getMenuInflater().inflate(R.menu.main, menu); // inflate the menu      
+         //顯示三個點，就是從這行來的
+         getMenuInflater().inflate(R.menu.main, menu); // inflate the menu
          return true;
       }
       else
@@ -100,16 +107,21 @@ public class MainActivity extends Activity
    } // end method onCreateOptionsMenu
 
    // displays SettingsActivity when running on a phone
+   //按下下拉選單的某個選項後，會到哪裡
    @Override
    public boolean onOptionsItemSelected(MenuItem item)
    {
       Intent preferencesIntent = new Intent(this, SettingsActivity.class);
-      startActivity(preferencesIntent); 
+      startActivity(preferencesIntent);
+
+      //這裡為什麼要return一個值？
       return super.onOptionsItemSelected(item);
    } 
 
+
    // listener for changes to the app's SharedPreferences
-   private OnSharedPreferenceChangeListener preferenceChangeListener = 
+   //當preference改變之後，會呼叫這裡
+   private OnSharedPreferenceChangeListener preferenceChangeListener =
       new OnSharedPreferenceChangeListener()
    {
       // called when the user changes the app's preferences
@@ -121,7 +133,8 @@ public class MainActivity extends Activity
          
          QuizFragment quizFragment = (QuizFragment)
             getFragmentManager().findFragmentById(R.id.quizFragment);
-         
+
+         //key內定在xml裡
          if (key.equals(CHOICES)) // # of choices to display changed   
          {   
             quizFragment.updateGuessRows(sharedPreferences);
@@ -131,6 +144,7 @@ public class MainActivity extends Activity
          {
             Set<String> regions = 
                sharedPreferences.getStringSet(REGIONS, null);
+            //利用key，拿取sharedPreference的資料
             
             if (regions != null && regions.size() > 0)
             {
@@ -144,6 +158,8 @@ public class MainActivity extends Activity
                   getResources().getString(R.string.default_region));
                editor.putStringSet(REGIONS, regions);
                editor.commit();
+               //由此直接修改xml裡的資料
+
                Toast.makeText(MainActivity.this, 
                   R.string.default_region_message, 
                   Toast.LENGTH_SHORT).show();
