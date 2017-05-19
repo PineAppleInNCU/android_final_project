@@ -48,6 +48,73 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
         db.execSQL(TABLE_CREATE);
 
 
+        ContentValues values = new ContentValues();
+        values.put(COL_category, "哥尼斯雷庫斯貓");
+        values.put(COL_introduction, "哥尼斯雷庫斯貓的介紹");
+        values.put(COL_image_path, "Cats/哥尼斯雷庫斯貓.png");
+        db.insert(TABLE_NAME, null, values);
+
+        values=new ContentValues();
+        values.put(COL_category,"哥拉特貓");
+        values.put(COL_introduction,"哥拉特貓_介紹");
+        values.put(COL_image_path,"Cats/哥拉特貓.png");
+        db.insert(TABLE_NAME, null, values);
+
+        values=new ContentValues();
+        values.put(COL_category,"夏爾特貓");
+        values.put(COL_introduction,"夏爾特貓_介紹");
+        values.put(COL_image_path,"Cats/夏爾特貓.png");
+        db.insert(TABLE_NAME, null, values);
+
+        values=new ContentValues();
+        values.put(COL_category,"外國短毛貓");
+        values.put(COL_introduction,"外國短毛貓_介紹");
+        values.put(COL_image_path,"Cats/外國短毛貓.png");
+        db.insert(TABLE_NAME, null, values);
+
+        values=new ContentValues();
+        values.put(COL_category,"寶貝里安貓");
+        values.put(COL_introduction,"寶貝里安貓_介紹");
+        values.put(COL_image_path,"Cats/寶貝里安貓.png");
+        db.insert(TABLE_NAME, null, values);
+
+        values=new ContentValues();
+        values.put(COL_category,"巴密茲貓");
+        values.put(COL_introduction,"巴密茲貓_介紹");
+        values.put(COL_image_path,"Cats/巴密茲貓.png");
+        db.insert(TABLE_NAME, null, values);
+
+        values=new ContentValues();
+        values.put(COL_category,"托基尼茲貓");
+        values.put(COL_introduction,"托基尼茲貓_介紹");
+        values.put(COL_image_path,"Cats/托基尼茲貓.png");
+        db.insert(TABLE_NAME, null, values);
+
+        values=new ContentValues();
+        values.put(COL_category,"拉格得貓");
+        values.put(COL_introduction,"拉格得貓_介紹");
+        values.put(COL_image_path,"Cats/拉格得貓.png");
+        db.insert(TABLE_NAME, null, values);
+
+        values=new ContentValues();
+        values.put(COL_category,"新加普拉貓");
+        values.put(COL_introduction,"新加普拉貓_介紹");
+        values.put(COL_image_path,"Cats/新加普拉貓.png");
+        db.insert(TABLE_NAME, null, values);
+
+
+        values=new ContentValues();
+        values.put(COL_category,"暹羅貓");
+        values.put(COL_introduction,"暹羅貓_介紹");
+        values.put(COL_image_path,"Cats/暹羅貓.png");
+        db.insert(TABLE_NAME, null, values);
+
+        values=new ContentValues();
+        values.put(COL_category,"東方短毛貓");
+        values.put(COL_introduction,"東方短毛貓_介紹");
+        values.put(COL_image_path,"Cats/東方短毛貓.png");
+        db.insert(TABLE_NAME, null, values);
+
     }
 
     @Override
